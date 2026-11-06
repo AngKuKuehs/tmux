@@ -16,10 +16,11 @@ Prefix is `Alt-Space` (`M-Space`), not `Ctrl-b`.
    git clone --recursive git@github.com:AngKuKuehs/tmux.git ~/.tmux
    ```
    If you already cloned without `--recursive`, run `git -C ~/.tmux submodule update --init --recursive`.
-3. **Copy the config to `~/.tmux.conf`.** The config is not in this repo, so copy it from your current machine:
+3. **Install the config** from the repo copy (`~/.tmux/.tmux.conf`):
    ```sh
-   scp <old-machine>:~/.tmux.conf ~/.tmux.conf
+   cp ~/.tmux/.tmux.conf ~/.tmux.conf
    ```
+   If you edit `~/.tmux.conf` on this machine, copy it back into the repo (`cp ~/.tmux.conf ~/.tmux/.tmux.conf`) and commit.
 4. **Start tmux and install plugins** (skip if `~/.tmux/plugins/*` is already populated):
    ```sh
    tmux new -s main
