@@ -1,0 +1,12 @@
+[submodule "plugins/tpm"]
+	path = plugins/tpm
+	url = https://github.com/tmux-plugins/tpm
+[submodule "plugins/tmux-sensible"]
+	path = plugins/tmux-sensible
+	url = https://github.com/tmux-plugins/tmux-sensible
+[submodule "plugins/tmux"]
+	path = plugins/tmux
+	url = https://github.com/dracula/tmux
+[submodule "plugins/vim-tmux-navigator"]
+	path = plugins/vim-tmux-navigator
+	url = https://github.com/christoomey/vim-tmux-navigator
